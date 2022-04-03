@@ -1,0 +1,82 @@
+
+body {
+  height: 500px;
+  background-image: url("../img/fotofondo2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+video {
+  margin-bottom: 15px;
+}
+/* Codigo un poco prestado de internet PD: Tambien lo he adaptado a mis necesidades */
+.boton {
+  border-radius: 100px;
+  cursor: pointer;
+  transition: 0.2s all;
+}
+
+.boton:active {
+  transform: scale(0.78);
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+.boton:hover{
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+/* Fin de codigo un poco prestado */
+
+h3 {
+  color: deepskyblue;
+  text-shadow: 2px 3px 1px black;
+  margin-left: 1%;
+}
+h1 {
+  font-size: 60px;
+  color: silver;
+  font-weight: bold;
+  text-shadow: 2px 4px 1px black;
+  text-decoration-line: underline;
+  margin-left: 1%;
+}
+h4 {
+  font-size: x-large;
+  text-shadow: #000 -1px 1px, #000 -2px 2px, #000 -3px 3px, #000 -4px 4px,
+    #000 -5px 5px;
+  color: silver;
+  letter-spacing: 1px;
+  margin-left: 1%;
+}
+
+#botonSeleccionar {
+  color-scheme: dark;
+  border-block-style: inset;
+  color: silver;
+  font-size: larger;
+  font-style: oblique;
+  text-align: -moz-center;
+}
+
+div {
+  width: 100%;
+  justify-content: center;
+}
+
+#inputFile {
+  justify-content: left;
+  margin-left: 1%;
+  width: 99%;
+}
+
+#marco {
+  display: flex;
+  border: 7px solid;
+  width: 884px;
+  background-color: #00000096;
+}
+
+#controles{
+  margin-top: 10px;
+}
